@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KARUNYA HALL BOOKING</title>
+    <style>
+        body {
+            color: blue;
+        }
+        fieldset {
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: red;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>KARUNYA HALL BOOKING</h1>
+        <hr>
+        <div class="center">
+            <a href="file:///C:/Users/84999/Downloads/exp2.1.html" style="color: blue">Media Elements</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Exp21.html" style="color: blue">Application Form</a>
+        </div>
+        <hr>
+    </center>
+
+    <!-- Application Form -->
+    <form>
+        <fieldset>
+            <center>
+            <table>
+                <tr>
+                    <td align="right"><label for="fname">First name:</label></td>
+                    <td align="left"><input type="text" id="fname" name="fname"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="lname">Last name:</label></td>
+                    <td align="left"><input type="text" id="lname" name="lname"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="email">Email:</label></td>
+                    <td align="left"><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="birthday">Birthday:</label></td>
+                    <td align="left"><input type="date" id="birthday" name="birthday"></td>
+                </tr>
+            </table><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="prefer_not_to_say" name="gender" value="Prefer not to say">
+            <label for="prefer_not_to_say">Prefer not to say</label><br><br>
+
+            <label for="languages">Languages Known:</label><br>
+            <input type="checkbox" id="tamil" name="languages" value="Tamil">
+            <label for="tamil">Tamil</label>
+            <input type="checkbox" id="english" name="languages" value="English">
+            <label for="english">English</label>
+            <input type="checkbox" id="hindi" name="languages" value="Hindi">
+            <label for="hindi">Hindi</label>
+            <input type="checkbox" id="malayalam" name="languages" value="Malayalam">
+            <label for="malayalam">Malayalam</label>
+            <input type="checkbox" id="telugu" name="languages" value="Telugu">
+            <label for="telugu">Telugu</label><br><br>
+
+            <label for="file">Upload File:</label>
+            <input type="file" id="myFile" name="filename"><br><br>
+
+            <label for="file">Downloading progress:</label>
+            <progress id="file" value="32" max="100">32%</progress>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hall Booking Details</legend>
+            <center>
+            <table>
+                <tr>
+                    <td align="right"><label for="event_name">Event Name:</label></td>
+                    <td align="left"><input type="text" id="event_name" name="event_name"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="event_date">Event Date:</label></td>
+                    <td align="left"><input type="date" id="event_date" name="event_date"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="start_time">Start Time:</label></td>
+                    <td align="left"><input type="time" id="start_time" name="start_time"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="end_time">End Time:</label></td>
+                    <td align="left"><input type="time" id="end_time" name="end_time"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="hall">Hall:</label></td>
+                    <td align="left">
+                        <select id="hall" name="hall">
+                            <option value="hall_a">Hall A</option>
+                            <option value="hall_b">Hall B</option>
+                            <option value="hall_c">Hall C</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="num_people">Number of People:</label></td>
+                    <td align="left"><input type="number" id="num_people" name="num_people" min="1" max="500"></td>
+                </tr>
+            </table>
+            </center>
+        </fieldset>
+        
+        <center>
+            <input type="submit" value="Submit">
+        </center>
+    </form>
+
+    <!-- Multimedia Elements -->
+    <div class="center">
+        <p>Play Audio</p>
+        <audio controls>
+            <source src="C:/Users/84999/Downloads/ttsMP3.com_VoiceText_2024-7-29_0-15-15.mp3" type="audio/mpeg">
+        </audio>
+        <hr>
+        <img src="C:/Users/84999/Downloads/snr-mahall-padappai-chennai-banquet-halls-x7e8fp4dby.avif" width="1500" height="500">
+        <embed src="C:/Users/84999/Downloads/calendar.pdf" width="700" height="400" type="application/pdf" align="left">
+        <iframe width="800" height="390" src="https://www.youtube.com/embed/dfBqfweBfrw?si=oejpo6VXFKOT2o1P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  allowfullscreen></iframe>       
+       
+        <table style="width: 100%;">
+            <tr>
+                <td style="vertical-align: top; width: 50%;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15669.16880406758!2d76.73364434012034!3d10.94128599525791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba866bd6c0c58db%3A0xbf68f39d1bd400ec!2sKarunya%20Nagar%2C%20Booluvampatti%2C%20Tamil%20Nadu%20641114!5e0!3m2!1sen!2sin!4v1722182114497!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+                <td style="vertical-align: top; width: 50%;">
+                    <iframe src="C:/Users/84999/Downloads/Wedding Hall Booking System in PHP DEMO.mp4" width="100%" height="400" style="border:0;" allowfullscreen=""></iframe>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
